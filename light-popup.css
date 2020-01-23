@@ -1,0 +1,27 @@
+.popupBg{
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom:0;
+	background-color: #000000;
+	opacity : 0.6;
+	filter:alpha(opacity=60);
+	z-index: 1000;
+	height: 100%;
+	width: 100%;
+	display: none;
+}
+.light-popup{
+	display: none;
+	position: absolute;
+	border: 1px solid #676767;
+	box-shadow: 0 0 15px #676767;
+	background-color: #fff;
+	z-index: 2000;
+	font-family: Arial;
+	min-width: 100px;
+	min-height: 200px;
+	border-radius : 4px;
+}
+

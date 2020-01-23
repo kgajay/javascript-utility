@@ -1,0 +1,36 @@
+<div class="popupBg" id="popupBg">
+</div>
+<div class="light-popup" id="popup-div">
+	<div class="outer-div outer-div-mob-app">
+		
+			<div class="close-popup close-light-popup">
+				<span>X</span>
+			</div>
+		<div class="right-div">
+		    <div class="section padding-bottom15">
+		    <h2 class="light-popup-head">
+		    Staying connected with your neighbors was never this easy! 
+		    <!-- Connect with your <br/> Community On-the-Go -->
+		    </h2>
+		    </div>
+			<div class="section padding-bottom22">
+				<div class="app-links">Download CommonFloor Groups Mobile App</div>
+				<a class="google-play" href="//play.google.com/store/apps/details?id=com.groups.commonfloor" target="_blank" ><img src="<?php echo CF_CDN::IMG('/groups/images/android-logo.png'); ?>">
+				</img></a>
+				<a class="ios-play" href="//itunes.apple.com/us/app/commonfloor-groups/id892328030" target="_blank" ><img src="<?php echo CF_CDN::IMG('/groups/images/app-store-logo.png'); ?>">
+				</img></a>
+				<span class="clearfix"></span>
+			</div>			
+			<div class="section padding-bottom22">
+			<div class="app-input-label">Enter your mobile number to receive the download link</div>
+			<div>
+				<form action="" method="POST" id="get-mobile-link">
+					<input type="text" class="width-30" placeholder="91" name="countrycode" value="91" />
+					<input class="width-160" placeholder="Enter Mobile Number" name="mobile" value="<?php echo $this->mobileNumber; ?>" />
+					<input type="submit" class="submit" value="Send" />
+				</form>
+			</div>
+			</div>
+		</div>
+	</div>		
+</div>
